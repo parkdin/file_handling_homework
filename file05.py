@@ -15,6 +15,6 @@ def main(data:str):
             non_digit += 1
     return [digit, non_digit]
 
-data = open('txt_file/data07.txt').read()
+data = open('txt_file/data05.txt').read()
 print(main(data))
 # Read data from file

@@ -7,10 +7,10 @@ def main(data:str):
         list: return answer
     """
     num = []
-    f = open(data).read()
-    for i in f:
+    for i in data:
         if i.isdigit():
             num += i
     return num
-print(main('txt_file/data03.txt'))
+data = open('txt_file/data07.txt').read()
+print(main(data))
 # Read data from file

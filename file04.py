@@ -6,14 +6,14 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    f = open(data).read()
     num = []
     non_digit = []
-    for i in f:
+    for i in data:
         if i.isdigit():
             num += i
         else:
             non_digit += i
     return non_digit
-print(main('txt_file/data04.txt'))
+data = open('txt_file/data07.txt').read()
+print(main(data))
 # Read data from file

@@ -14,6 +14,6 @@ def main(data:str):
         else:
             non_digit += i
     return non_digit
-data = open('txt_file/data07.txt').read()
+data = open('txt_file/data04.txt').read()
 print(main(data))
 # Read data from file

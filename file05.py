@@ -6,15 +6,15 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    f = open(data).read()
     digit = 0
     non_digit = 0
-    for i in f:
+    for i in data:
         if i.isdigit():
             digit += 1
         else:
             non_digit += 1
     return [digit, non_digit]
 
-print(main('txt_file/data05.txt'))
+data = open('txt_file/data07.txt').read()
+print(main(data))
 # Read data from file

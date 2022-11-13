@@ -11,4 +11,5 @@ def main(data:str):
     return length
 
 # Read data from file
-print(main('txt_file/data02.txt'))
+data = 'txt_file/data02.txt'
+print(main(data))

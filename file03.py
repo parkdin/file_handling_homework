@@ -11,6 +11,6 @@ def main(data:str):
         if i.isdigit():
             num += i
     return num
-data = open('txt_file/data07.txt').read()
+data = open('txt_file/data03.txt').read()
 print(main(data))
 # Read data from file

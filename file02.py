@@ -10,5 +10,5 @@ def main(data:str):
     return length
 
 # Read data from file
-data = open('txt_file/data07.txt').read()
+data = open('txt_file/data02.txt').read()
 print(main(data))

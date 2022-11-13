@@ -13,5 +13,5 @@ def main(data:str):
                 min_char = int(i)
     return min_char
 # Read data from file
-data = open('txt_file/data08.txt').read()
+data = open('txt_file/data09.txt').read()
 print(main(data))

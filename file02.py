@@ -6,7 +6,7 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    f = open(data).read()
+    f = open(data, 'r').read()
     length = len(f)
     return length
 
